@@ -36,7 +36,7 @@ Install required packages using the provided requirements.txt file:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## 🚀 How It Works
 
 This project performs three main steps to generate a candlestick chart for Ethereum using live market data:
@@ -46,19 +46,19 @@ The script pulls ETH market data from CoinGecko's API for the last 30 days using
 
 ```python
 eth_data = get_eth_market_chart()
-
+```
 ### 2. **Convert to OHLC Format**
 The raw price data is resampled into daily OHLC (Open, High, Low, Close) format using Pandas' `.resample()` method.
 
 ```python
 ohlc = convert_to_ohlc(eth_data)
-
+```
 ### 3. **Plot Candlestick Chart**
 An interactive chart is created using Plotly and opened in your default browser:
 
 ```python
 plot_candlestick_to_browser(ohlc)
-
+```
 ## 📌 Customization Tips
 
 - **Change Currency**:
