@@ -17,7 +17,7 @@ This project fetches Ethereum (ETH) price data for the past 30 days from the [Co
 
 Here's what you'll get:
 
-![Candlestick Chart Preview](https://upload.wikimedia.org/wikipedia/commons/3/3a/Candlestick_chart_scheme_01.svg)
+![Candlestick Chart Preview](https://images.app.goo.gl/cUSD4zQNKdH5rRVT6)
 *(This is a representative image; your output will be interactive and rendered in a browser)*
 
 ---
